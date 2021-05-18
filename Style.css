@@ -1,0 +1,22 @@
+body{
+
+    background-color: d8bbff;
+    color: blanchedalmond; 
+}
+
+#welcome{
+    text-align: center;
+    color: c0fdff;
+    background-color: d0d1ff;
+}
+div{
+    background-color: deaaff;
+    border-radius: 25px;
+    background:d0d1ff;
+    padding: 20px;
+
+}
+
+.horizontal{
+    border-bottom: 4px dashed blanchedalmond;
+}
