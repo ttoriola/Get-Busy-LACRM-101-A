@@ -1,0 +1,32 @@
+body{
+
+    background-color: d8bbff;
+    color: whitesmoke; 
+}
+
+#titleFormat{
+    text-align: center;
+    color:#AF33FF; /*  c0fdff */
+
+    background-color: whitesmoke;
+}
+div{
+    background-color: deaaff;
+    border-radius: 50%;
+    background:d0d1ff;
+    padding: 250px;
+
+}
+
+.button {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
