@@ -1,0 +1,12 @@
+body{
+    background-color: d8bbff;
+    color: rgb(121, 75, 206); 
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 3px paleturquoise; 
+
+}
