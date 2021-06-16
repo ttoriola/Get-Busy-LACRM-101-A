@@ -41,15 +41,21 @@
                         </div>
         -->
        <button class="button button1">3px</button>
+       <div id = "buttonPlacement">
+
+       </div>
         <script>
          function makeCircles(){
+            let getButtonDiv = document.getElementById("buttonPlacement");
             for(let i = 0; i < 6;i++){
-                <button class="button button1">3px</button>
+                getButtonDiv.innerHTML = "<button class='button button1'>+3px+</button>";
+                console.log("looping");
             }
-        }
+            
+         }
+        makeCircles();
         </script>
      
-       
     
         
 
