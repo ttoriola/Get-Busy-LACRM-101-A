@@ -1,6 +1,6 @@
 body{
 
-    background-color: d8bbff;
+    background-color: whitesmoke;
     color: whitesmoke; 
 }
 
@@ -11,19 +11,74 @@ body{
     background-color: whitesmoke;
 }
 div{
-    background-color: deaaff;
+    background-color: whitesmoke ;  /* d8bbff */
     border-radius: 50%;
     background:d0d1ff;
     padding: 250px;
 
 }
-
-.button {
-    background-color:lightblue;
+.book1{
+position: absolute;
+width: 402px;
+height: 100vh;
+top: -1333px;
+left: 0px;
+background: #247B7B;
+}
+.book2{685 tyuj  hhh
+    position: absolute;
+    width: 332px;
+    height: 100%;
+    top: 0px;
+    left: 402px;
+    background: #ACF7C1;
+}
+.book3{
+    position: absolute;
+    width: 352px;
+    height: 100vh;
+    top: -1333px;
+    left: 734px;
+   /* background: #0D5C63;*/
+    
+}
+.book4{
+    position: absolute;
+    width: 352px;
+    height: 100vh;
+    top: -1333px;
+    left: 1086px;
+    background: #B6DCFE;
+}
+.book5{
+    position: absolute;
+    width: 302px;
+    height: 100vh;
+    top: -1333px;
+    left: 1388px;
+    background: #F7D4BC;
+    transform: rotate(-14.54deg); 
+}
+.big-button{
+    background-color: #FF74D4;
     border: none;
     border-radius: 50%;
     color: white;
-    padding: 20px;
+    padding: 110px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px; 
+    position: absolute;
+    
+}
+.button {
+    background-color:#2C6E49;/*#FFB8DE */
+    border: none;
+    border-radius: 50%;
+    color: white;
+    padding: 120px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
