@@ -20,42 +20,44 @@ div{
 .book1{
 position: absolute;
 width: 402px;
-height: 100vh;
-top: -1333px;
+height: 1686;
+bottom: 1333px;
 left: 0px;
 background: #247B7B;
+
+
 }
-.book2{685 tyuj  hhh
+.book2{
     position: absolute;
     width: 332px;
-    height: 100%;
-    top: 0px;
+    height: 1353px;
+    bottom: 1333px;
     left: 402px;
-    background: #ACF7C1;
+    background: #ACF7C1; 
 }
 .book3{
     position: absolute;
-    width: 352px;
-    height: 100vh;
-    top: -1333px;
-    left: 734px;
-   /* background: #0D5C63;*/
+     width: 352px;
+     height: 1483;
+     bottom: 1333px;
+     left: 734px; 
+   background: #A657AE; 
     
 }
 .book4{
     position: absolute;
     width: 352px;
-    height: 100vh;
-    top: -1333px;
+    height: 1403;
+    bottom: 1333px;
     left: 1086px;
     background: #B6DCFE;
 }
 .book5{
     position: absolute;
     width: 302px;
-    height: 100vh;
-    top: -1333px;
-    left: 1388px;
+    height: 1346.75;
+    bottom: 1333px;
+    left: 1588px;
     background: #F7D4BC;
     transform: rotate(-14.54deg); 
 }

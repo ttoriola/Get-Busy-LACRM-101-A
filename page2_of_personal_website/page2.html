@@ -63,21 +63,31 @@
         
     <div id = "bookshelf">
         <div id = "book1">
-            <button class='book1'>Skills</button>    
+            <button class='book1'>Skills</button>   
+
+            <input type="checkbox" id="myCheck" onmouseover="clickBook1()"
+            onclick="alert('clicked')"> 
+            <script>
+                function clickBook1(){
+                    document.getElementById("myCheck").click();
+                }
+            </script>
         </div>  
         <div id = "book2">
             <button class='book2'>Education</button>   
         </div>
         <div id = "book3">
-            <button class='book3'>Projects</button>   
-            <img src="images/daisy_patterb.jpeg" alt="Daisy Pattern" width ="352px" height ="2100px">
+            <button class='book3'>Projects</button>  
+         <!--   <img src="images/daisy_patterb.jpeg" alt="Daisy Pattern" bottom ="1333px" left ="804px" width = "353px" height = "1482px"> -->
         </div>
-        <div id = "book4">
-            <button>Contact Me</button>  
-        </div>
+       
         
         <div id = "book5">
             <button class='book5'>Experience</button>   
+        </div>
+        <div id = "book4">
+           
+            <button class = 'book4'>Contact Me</button>  
         </div>
     </div>
        <!-- 
