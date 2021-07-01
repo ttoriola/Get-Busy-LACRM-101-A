@@ -68,9 +68,9 @@
             <input type="checkbox" id="myCheck" onmouseover="clickBook1()"
             onclick="alert('clicked')"> 
             <script>
-                function clickBook1(){
-                    document.getElementById("myCheck").click();
-                }
+                document.getElementByClassName('drill-cursor')[0].addEventListener('click',function(event)) {
+                    let x = 3; 
+                });
             </script>
         </div>  
         <div id = "book2">
